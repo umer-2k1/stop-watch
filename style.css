@@ -1,0 +1,71 @@
+/* 
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;   /* 1rem = 10px */ 
+}
+body{
+    background:  #2a364f;
+}
+.container{
+    margin-left: 40%;
+    margin-top: 30vh;
+    font-size: 3rem;
+    color: white;
+}
+.btns-contain button{
+    width: 12%;
+    height: 4rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+
+.digit{
+    font-size: 5rem;
+}
+.txt{
+    font-size: 1.5rem;
+}
+.btns-contain{
+    margin-top: 2rem;
+}
+.btns-contain button:first-child{
+    background-color: green;
+    background-color: #DB2B77;
+    color: #e9f4fb;
+    border: 0.1rem solid #DB2B77;
+}
+.btns-contain button:first-child:hover{
+    background-color: #e7428a;
+    transition: 0.2s;
+}
+
+.btns-contain button:nth-child(2){
+    background-color: red;
+    color: #e9f4fb;
+    border: 0.1rem solid red;
+}
+.btns-contain button:nth-child(2):hover{
+    background-color: rgb(247, 66, 66);
+    transition: 0.2s;
+}
+.btns-contain button:nth-child(3){
+    background-color: #2691d9;
+    color: #e9f4fb;
+    border: 0.1rem solid #2691d9;
+}
+.btns-contain button:nth-child(3):hover{
+    background-color: #4caae9;
+    transition: 0.2s;
+}
